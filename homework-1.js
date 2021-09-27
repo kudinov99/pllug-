@@ -19,3 +19,30 @@ function changeLatters(str) {
 }
 
 console.log(changeLatters('PlluG'));
+
+
+
+/*
+  Завдання 1 зроблено добре. Зауважень нема
+
+  
+  Завдання 2 зроблено добре
+  Тут можна було стрічку не перетворювати в масив. Можна було б зробити так
+
+  function changeLatters(str) {
+
+    let newStr = '';
+
+    for (let i = 0; i < str.length; i++) {
+
+      if (str[i] == str[i].toLowerCase()) {
+
+        newStr += str[i].toUpperCase();
+      } else {
+
+        newStr += str[i].toLowerCase();
+      }
+    }
+    return newStr;
+  }
+*/
