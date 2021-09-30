@@ -42,10 +42,20 @@ const array9 = [1, 2],
 
 //Зробити заповнений масив пустим;
 
-function emptyArr(arr) {
-  return [];
-}
-console.log(emptyArr([1, 2, 3]));
+const array = [1, 2, 3, 4];
+array.length = 0;
+
+//or
+
+//while (array.length > 0) {
+//  array.pop();
+//}
+
+//or
+
+//array.splice(0, array.length);'
+
+console.log(array);
 
 //Дано масив, [1,2,3,4,5], потрібно створити функцію, яка видалить певний елемент з масиву за його індексом та поверне новий масив(оновлений- після видалення);
 
